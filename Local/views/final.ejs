@@ -42,8 +42,8 @@
                 <div class="container px-5">
                     <h1 class="masthead-heading mb-0">歌曲排行榜</h1>
                     <h2 class="masthead-subheading mb-0">CHART TOP 3</h2>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">中文歌</a>
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scrol2">english song</a>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll1">中文歌</a>
+                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll2">English song</a>
                 </div>
             </div>
             <div class="bg-circle-1 bg-circle"></div>
@@ -52,18 +52,18 @@
             <div class="bg-circle-4 bg-circle"></div>
         </header>
         <h1>中文</h1>
-        <% for (let i=0; i < data.length; i++) { %>
-            <section id="scroll">
+        <% for (let i=0; i<data.length; i++) { %>
+            <section id="scroll1">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6 order-lg-2">
-                            <div class="p-5"><img class="img-fluid rounded-circle" src="assets/songimg/<%= data[i].c_id %>.jpg" alt="..." /></div>
+                            <div class="p-5"><img class="img-fluid rounded-circle" src="assets/songimg/<%=data[i].c_id %>.jpg" alt="..." /></div>
                         </div>
                         <div class="col-lg-6 order-lg-1">
                             <div class="p-5">
-                                <h2 class="display-4">TOP <%= data[i].c_id %></h2>
-                                <p>歌名:<%= data[i].c_m_name %></p>
-                                <p>演唱:<%= data[i].c_s_name %></p>
+                                <h2 class="display-4">TOP<%= data[i].c_id %></h2>
+                                <h3><%= data[i].c_m_name %></h3>
+                                <h4><%= data[i].c_s_name %></h4>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@
         <% } %>  
         <h1>ENGLISH</h1>
         <% for (let i=0; i < eng.length; i++) { %>
-            <section id="scrol2">
+            <section id="scroll2">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center">
                         <div class="col-lg-6 order-lg-2">
@@ -80,9 +80,9 @@
                         </div>
                         <div class="col-lg-6 order-lg-1">
                             <div class="p-5">
-                                <h2 class="display-4">TOP <%= i+1 %></h2>
-                                <p>歌名:<%= eng[i].eng_m_name %></p>
-                                <p>演唱:<%= eng[i].eng_s_name %></p>
+                                <h2 class="display-4">TOP<%= i+1 %></h2>
+                                <h3><%= eng[i].eng_m_name %></h3>
+                                <h4><%= eng[i].eng_s_name %></h4>
                             </div>
                         </div>
                     </div>

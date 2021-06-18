@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/c-musics",
+      "handler": "c-music.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/c-musics/count",
+      "handler": "c-music.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/c-musics/:id",
+      "handler": "c-music.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/c-musics",
+      "handler": "c-music.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/c-musics/:id",
+      "handler": "c-music.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/c-musics/:id",
+      "handler": "c-music.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

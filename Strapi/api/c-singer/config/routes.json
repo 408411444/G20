@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/c-singers",
+      "handler": "c-singer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/c-singers/count",
+      "handler": "c-singer.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/c-singers/:id",
+      "handler": "c-singer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/c-singers",
+      "handler": "c-singer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/c-singers/:id",
+      "handler": "c-singer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/c-singers/:id",
+      "handler": "c-singer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

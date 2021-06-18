@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/eng-musics",
+      "handler": "eng-music.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/eng-musics/count",
+      "handler": "eng-music.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/eng-musics/:id",
+      "handler": "eng-music.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/eng-musics",
+      "handler": "eng-music.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/eng-musics/:id",
+      "handler": "eng-music.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/eng-musics/:id",
+      "handler": "eng-music.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

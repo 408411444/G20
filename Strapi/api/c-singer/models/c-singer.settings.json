@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "c_singers",
+  "info": {
+    "name": "c_singer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "c_s_name": {
+      "type": "string"
+    },
+    "c_age": {
+      "type": "integer"
+    },
+    "c_s_id": {
+      "type": "integer"
+    },
+    "c_music_id": {
+      "via": "c_singer_id",
+      "collection": "c-music"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "charts",
+  "info": {
+    "name": "chart",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "c_id": {
+      "type": "integer",
+      "unique": true
+    },
+    "c_musicid": {
+      "model": "c-music"
+    },
+    "eng_musicid": {
+      "model": "eng-music"
+    },
+    "c_m_name": {
+      "model": "c-music"
+    },
+    "c_s_name": {
+      "model": "c-singer"
+    },
+    "eng_m_name": {
+      "model": "eng-music"
+    },
+    "eng_s_name": {
+      "model": "eng-singer"
+    }
+  }
+}

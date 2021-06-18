@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eng_musics",
+  "info": {
+    "name": "eng_music",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eng_m_name": {
+      "type": "string"
+    },
+    "eng_url": {
+      "type": "string"
+    },
+    "eng_m_id": {
+      "type": "integer",
+      "required": true
+    },
+    "eng_singer_id": {
+      "via": "eng_musics_id",
+      "model": "eng-singer"
+    }
+  }
+}

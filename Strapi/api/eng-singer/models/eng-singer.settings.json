@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eng_singers",
+  "info": {
+    "name": "eng_singer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eng_s_name": {
+      "type": "string"
+    },
+    "eng_age": {
+      "type": "integer"
+    },
+    "eng_s_id": {
+      "type": "integer"
+    },
+    "eng_musics_id": {
+      "collection": "eng-music",
+      "via": "eng_singer_id"
+    }
+  }
+}

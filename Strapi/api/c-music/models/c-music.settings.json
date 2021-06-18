@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "c_musics",
+  "info": {
+    "name": "c_music",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "c_m_name": {
+      "type": "string"
+    },
+    "c_url": {
+      "type": "string"
+    },
+    "c_m_id": {
+      "type": "integer"
+    },
+    "c_singer_id": {
+      "model": "c-singer",
+      "via": "c_music_id"
+    }
+  }
+}

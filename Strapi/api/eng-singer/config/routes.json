@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/eng-singers",
+      "handler": "eng-singer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/eng-singers/count",
+      "handler": "eng-singer.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/eng-singers/:id",
+      "handler": "eng-singer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/eng-singers",
+      "handler": "eng-singer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/eng-singers/:id",
+      "handler": "eng-singer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/eng-singers/:id",
+      "handler": "eng-singer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

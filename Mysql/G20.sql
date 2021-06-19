@@ -39,7 +39,7 @@ CREATE TABLE `c_music` (
 
 LOCK TABLES `c_music` WRITE;
 /*!40000 ALTER TABLE `c_music` DISABLE KEYS */;
-INSERT INTO `c_music` VALUES (1,'愛情你比我想的閣較偉大',2,''),(2,'彼個所在',1,'<iframe width=\"933\" height=\"397\" src=\"https://www.youtube.com/embed/86wypSCXK9M\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>'),(3,'刻在我心底的名字',4,NULL),(4,'在這座城市遺失了你',3,NULL),(5,'體面',5,NULL),(6,'Without You',6,NULL),(7,'你啊你啊',1,NULL),(8,'唯一',3,NULL),(9,'四季予你',7,NULL),(10,'浪子回頭',2,NULL);
+INSERT INTO `c_music` VALUES (1,'愛情你比我想的閣較偉大',2,'https://www.youtube.com/embed/0rp3pP2Xwhs'),(2,'彼個所在',1,'https://www.youtube.com/embed/86wypSCXK9M'),(3,'刻在我心底的名字',4,'https://www.youtube.com/watch?v=m78lJuzftcc'),(4,'在這座城市遺失了你',3,'https://www.youtube.com/watch?v=PlCbgZxonJs'),(5,'體面',5,'https://www.youtube.com/watch?v=sg_WE0ToJjM'),(6,'Without You',6,'https://www.youtube.com/watch?v=HQDDlgGy2hg'),(7,'你啊你啊',1,'https://www.youtube.com/watch?v=M1tmYdeh6ZM'),(8,'唯一',3,'https://www.youtube.com/watch?v=vxucCfcMFCk'),(9,'四季予你',7,'https://www.youtube.com/watch?v=vxucCfcMFCk'),(10,'浪子回頭',2,'https://www.youtube.com/watch?v=x3bDhtuC5yk');
 /*!40000 ALTER TABLE `c_music` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -121,7 +121,7 @@ CREATE TABLE `eng_music` (
 
 LOCK TABLES `eng_music` WRITE;
 /*!40000 ALTER TABLE `eng_music` DISABLE KEYS */;
-INSERT INTO `eng_music` VALUES (1,'Stars Align',2,NULL),(2,'Butter',1,NULL),(3,'Peaches',3,NULL),(4,'Love Yourself',3,NULL),(5,'Sorry',3,NULL),(6,'Bedroom',4,NULL),(7,'Higher Power',5,NULL),(8,'DNA',1,NULL);
+INSERT INTO `eng_music` VALUES (1,'Stars Align',2,'https://www.youtube.com/watch?v=--giQqhWGdQ'),(2,'Butter',1,'https://www.youtube.com/watch?v=WMweEpGlu_U'),(3,'Peaches',3,'https://www.youtube.com/watch?v=tQ0yjYUFKAE'),(4,'Love Yourself',3,'https://www.youtube.com/watch?v=Jc2HRj8--M4'),(5,'Sorry',3,'https://www.youtube.com/watch?v=fRh_vgS2dFE'),(6,'Bedroom',4,'https://www.youtube.com/watch?v=LPSFjYh7TTw'),(7,'Higher Power',5,'https://www.youtube.com/watch?v=3lfnR7OhZY8'),(8,'DNA',1,'https://www.youtube.com/watch?v=MBdVXkSdhwU');
 /*!40000 ALTER TABLE `eng_music` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -159,4 +159,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-16 11:57:15
+-- Dump completed on 2021-06-20  1:35:20

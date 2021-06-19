@@ -39,7 +39,7 @@ CREATE TABLE `eng_music` (
 
 LOCK TABLES `eng_music` WRITE;
 /*!40000 ALTER TABLE `eng_music` DISABLE KEYS */;
-INSERT INTO `eng_music` VALUES (1,'Stars Align',2,NULL),(2,'Butter',1,NULL),(3,'Peaches',3,NULL),(4,'Love Yourself',3,NULL),(5,'Sorry',3,NULL),(6,'Bedroom',4,NULL),(7,'Higher Power',5,NULL),(8,'DNA',1,NULL);
+INSERT INTO `eng_music` VALUES (1,'Stars Align',2,'https://www.youtube.com/watch?v=--giQqhWGdQ'),(2,'Butter',1,'https://www.youtube.com/watch?v=WMweEpGlu_U'),(3,'Peaches',3,'https://www.youtube.com/watch?v=tQ0yjYUFKAE'),(4,'Love Yourself',3,'https://www.youtube.com/watch?v=Jc2HRj8--M4'),(5,'Sorry',3,'https://www.youtube.com/watch?v=fRh_vgS2dFE'),(6,'Bedroom',4,'https://www.youtube.com/watch?v=LPSFjYh7TTw'),(7,'Higher Power',5,'https://www.youtube.com/watch?v=3lfnR7OhZY8'),(8,'DNA',1,'https://www.youtube.com/watch?v=MBdVXkSdhwU');
 /*!40000 ALTER TABLE `eng_music` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-14 18:36:02
+-- Dump completed on 2021-06-20  1:33:10

@@ -39,7 +39,7 @@ CREATE TABLE `c_music` (
 
 LOCK TABLES `c_music` WRITE;
 /*!40000 ALTER TABLE `c_music` DISABLE KEYS */;
-INSERT INTO `c_music` VALUES (1,'愛情你比我想的閣較偉大',2,''),(2,'彼個所在',1,'<iframe width=\"933\" height=\"397\" src=\"https://www.youtube.com/embed/86wypSCXK9M\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>'),(3,'刻在我心底的名字',4,NULL),(4,'在這座城市遺失了你',3,NULL),(5,'體面',5,NULL),(6,'Without You',6,NULL),(7,'你啊你啊',1,NULL),(8,'唯一',3,NULL),(9,'四季予你',7,NULL),(10,'浪子回頭',2,NULL);
+INSERT INTO `c_music` VALUES (1,'愛情你比我想的閣較偉大',2,'https://www.youtube.com/embed/0rp3pP2Xwhs'),(2,'彼個所在',1,'https://www.youtube.com/embed/86wypSCXK9M'),(3,'刻在我心底的名字',4,'https://www.youtube.com/watch?v=m78lJuzftcc'),(4,'在這座城市遺失了你',3,'https://www.youtube.com/watch?v=PlCbgZxonJs'),(5,'體面',5,'https://www.youtube.com/watch?v=sg_WE0ToJjM'),(6,'Without You',6,'https://www.youtube.com/watch?v=HQDDlgGy2hg'),(7,'你啊你啊',1,'https://www.youtube.com/watch?v=M1tmYdeh6ZM'),(8,'唯一',3,'https://www.youtube.com/watch?v=vxucCfcMFCk'),(9,'四季予你',7,'https://www.youtube.com/watch?v=vxucCfcMFCk'),(10,'浪子回頭',2,'https://www.youtube.com/watch?v=x3bDhtuC5yk');
 /*!40000 ALTER TABLE `c_music` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-14 18:36:02
+-- Dump completed on 2021-06-20  1:33:03
